@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Project</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Responsive Web Design Course - Project 1</p>
+    <form action="" id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Name: <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email: <input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+        <label for="number" id="number-label"> Number: <input type="number" name="number" id="number" min="5" max="18" placeholder="Pick a number" required></label>
+        <label for="referrer">How did you hear about us? 
+            <select name="referrer" id="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">News</option>
+                <option value="2">YouTube Channel</option>
+                <option value="3">Forum</option>
+                <option value="4">Other</option>
+            </select>
+           </label> 
+        </fieldset>
+        <fieldset>
+            <label for="personal-account"><input type="radio"  name="account-type" id="personal-account" value="personal-account" class="inline"> Personal Account</label>
+            <label for="business-account"><input type="radio" name="account-type" id="business-account" value="business-account" class="inline"> Business Account</label>
+        </fieldset>
+        <fieldset>
+            <legend>Select your hobbies:</legend>
+            <label for="hobbies-1"><input type="checkbox" name="hobbies-1" id="hobbies-1" value="soccer" class="inline" required> Soccer</label>
+            <label for="hobbies-2"><input type="checkbox" name="hobbies-2" id="hobbies-2" value="scuba-diving" class="inline" required> Scuba Diving</label>
+            <label for="hobbies-3"><input type="checkbox" name="hobbies-3" id="hobbies-3" value="basketball" class="inline" required> Basketball </label>
+            <label for="hobbies-4"><input type="checkbox" name="hobbies-4" id="hobbies-4" value="sky-diving"  class="inline" required> Sky Diving</label>
+            <label for="hobbies-5"><input type="checkbox" name="hobbies-5" id="hobbies-5" value="other"  class="inline" required> Other</label>
+        </fieldset>
+        <label for="bio"> Suggestions: <textarea name="bio" id="bio" cols="30" rows="3" placeholder="Give your feedback here!!!..."></textarea></label>
+            <input id="submit"  type="submit"value="Submit">
+    </form>
+</body>
+</html>
