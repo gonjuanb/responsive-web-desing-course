@@ -1,0 +1,87 @@
+body{
+    background-color: #214b32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+h1,p, form{
+    margin: 1em auto;
+    text-align: center;
+}
+
+fieldset{
+    display: block;
+    padding: 1rem 0;
+    border: 0;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color:#214b32;
+    border: 0;
+    color: #ffffff;
+    border-radius: 0.5em;
+    accent-color: #1b3b29;
+    min-height: 2em;
+}
+
+form{
+    background-color: #2b6141;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 60vw;
+    min-width: 300;
+    padding: 0.5em;
+    text-align: left;
+    border-radius: 0.5em;
+}
+
+
+.inline{
+    width: unset;
+    margin:0 1em 0 0;
+    vertical-align:middle;
+}
+
+::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+#dropdown{
+    background-color: #214b32;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 0.5em;
+    height: 2em;
+    font-size: 16px;
+    padding-left: 1em;
+    border: 0;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1b3b29;
+    border-color: white;
+    min-width: 300px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10 0 0 0;
+    min-height: 5em;
+    background-color: #1b3b29;
+    border:0;
+    border-radius: 0.5em;
+}
+
+label{
+    display: block;
+}
